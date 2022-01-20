@@ -34,6 +34,11 @@ body {
     background-color: rgba(197, 122, 167, 0.39);
 }
 
+#navF {
+    padding: 1.6rem;
+    background-color: #F9AB30;
+    border-radius: 3px;
+}
 
 
 
@@ -44,6 +49,7 @@ body {
     color: white;
     position: fixed;
     top: 0;
+    z-index: 10;
     width: 100%;
 }
 

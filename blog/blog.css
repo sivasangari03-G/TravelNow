@@ -44,7 +44,15 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+	z-index: 10;
 }
+
+#navF {
+    padding: 1.6rem;
+    background-color: #F9AB30;
+    border-radius: 3px;
+}
+
 
 .brand-title {
     background-color: #33313B;
