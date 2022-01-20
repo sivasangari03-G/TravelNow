@@ -424,7 +424,7 @@ body {
 	width: fit-content;
 	border: 0;
 	margin-bottom: 25px;
-	background-color: #222121;
+	background-color: transparent;
 	color: #b4afaf;
 	font-size: 100%;
 	cursor: pointer;
@@ -443,14 +443,14 @@ body {
 }
 .footerPhone,
 .footerMail {
-	background-color: #292828;
+	background-color: transparent;
 	color: white;
 	border: 0;
 	cursor: pointer;
 }
 .footerNumber,
 .footerMailId {
-	background-color: #292828;
+	background-color: transparent;
 	color: white;
 	border: 0;
 	font-size: 100%;
