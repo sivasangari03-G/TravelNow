@@ -488,3 +488,221 @@ body {
 
 }
 
+
+
+
+
+.container {
+    width: 100%;
+    height: 600px;
+    background-color: whitesmoke;
+    margin: auto;
+    display: flex;
+
+}
+
+.containerQ {
+    background-color: white;
+    height: 550px;
+    width: 100%;
+    display: flex;
+}
+
+.flexes1 {
+    width: 23%;
+    background-color: whitesmoke;
+    height: 560px;
+    margin-left: 5rem;
+    padding-top: 2rem;
+}
+
+.flexes1 h3{
+ font-weight: 500;
+ margin-top: -0.1rem;
+}
+
+
+.flexes1 img{
+width: 25%;
+}
+
+.flexes1 p{
+    margin-bottom: 4rem;
+    color: gray;
+    line-height: 1.6rem;
+    }
+
+.flexes2 {
+    width: 45%;
+    background-color: whitesmoke;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 400px;
+}
+
+.flexes2 h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.flexes2 a {
+    padding: 1rem 2.3rem;
+    background-color: #F9AB30;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+}
+
+.flexes2 p {
+    color: gray;
+    line-height: 1.6rem;
+}
+
+
+.sailorimage {
+    width: 45%;
+    background-color: white;
+    height: 550px;
+    background-image: url(https://preview.colorlib.com/theme/vacation/images/xabout.jpg.pagespeed.ic.STXElDiRya.webp);
+    background-size: cover;
+    background-position: center;
+    margin-left: 5rem;
+    margin-right: 4rem;
+}
+
+.sailorsay h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.sailorsay{
+    width: 40%;
+}
+
+.sailorsay p{
+    line-height: 1.6rem;
+    color: gray;
+}
+
+.sailornos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sailorStats {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.sailorStats h1 {
+    color: #F9AB30;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+}
+
+#CounterButton2 {
+    margin-left: 0.5rem;
+}
+
+.sailorStats p {
+    font-size: 0.9rem;
+    margin-top: -1.2rem;
+}
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:760px) {
+
+    .container {
+        flex-direction: column-reverse;
+        height: auto;
+        align-items: center;
+    }
+
+
+    .flexes1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .flexes1 img {
+        width: 15%;
+    }
+
+    .flexes2 {
+        height: auto;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .containerQ {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sailorimage {
+        width:100%;
+        height: 200px;
+    }
+
+    .sailorsay {
+        width: 100%;
+    }
+
+    .sailornos {
+        flex-direction: column;
+    }
+
+    .sailornos p {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    #CounterButton2 {
+        margin-left: 2rem;
+    }
+
+    /* .sailorStats {
+        flex-direction: column;
+    } */
+
+    /* .sailorStats p {
+        margin-top: -25rem;
+        margin-bottom: -9rem;
+    } */
+
+    
+}
+
+
+@media screen and (min-width:770px) and (max-width:1000px) {
+
+    /* .flexes2 p {
+        font-size: 0.6rem;
+    } */
+
+    .sailorStats p{
+        font-size: 0.7rem;
+    }
+    
+    .sailornos {
+        margin-left: -2rem;
+
+    }
+
+    .container {
+        padding-bottom: 250px;
+    }
+
+    .sailorsay h1 {
+        font-size: 2rem;
+    }
+
+}
