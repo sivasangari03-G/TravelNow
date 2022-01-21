@@ -46,3 +46,57 @@ window.addEventListener("scroll",()=>{
     }
 })
 
+
+
+
+
+
+
+var runCounter = document.querySelector("#CounterButton1");
+	var count = 0;
+
+	window.addEventListener("scroll", function () {
+		const scrolled = window.scrollY;
+		console.log(scrolled);
+		if (scrolled > 1200) {
+			setInterval(function () {
+				if (count == 300) {
+					return;
+				}
+				count++;
+				runCounter.innerHTML = count;
+			}, 7);
+		}
+	});
+
+	var runCounter2 = document.querySelector("#CounterButton2");
+	var count2 = 23500;
+
+	window.addEventListener("scroll", function () {
+		const scrolled = window.scrollY;
+		if (scrolled > 1200) {
+			setInterval(function () {
+				if (count2 == 24000) {
+					return;
+				}
+				count2++;
+				runCounter2.innerHTML = count2;
+			}, 1);
+		}
+	});
+	var runCounter3 = document.querySelector("#CounterButton3");
+	var count3 = 0;
+
+	window.addEventListener("scroll", function () {
+		const scrolled = window.scrollY;
+		if (scrolled > 1200) {
+			setInterval(function () {
+				if (count3 == 200) {
+					return;
+				}
+				count3++;
+				runCounter3.innerHTML = count3;
+			}, 9);
+		}
+	});
+
