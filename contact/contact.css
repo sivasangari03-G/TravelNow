@@ -33,6 +33,7 @@ body {
     background-blend-mode: multiply;
     background-color: rgba(197, 122, 167, 0.39);
     margin-bottom:100px;
+	z-index: 10;
 }
 
 
