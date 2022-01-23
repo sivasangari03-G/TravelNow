@@ -1,6 +1,6 @@
-/* * {
+* {
 	box-sizing: border-box;
-} */
+}
 
 body {
 	padding: 0;
@@ -26,11 +26,12 @@ body {
 .wrapper {
 	background-image: url(hero_home-01.jpeg);
 	background-position: top;
-	height: 45rem;
+	height: auto;
 	width: 100%;
 	background-size: cover;
 	background-blend-mode: multiply;
 	background-color: rgba(247, 37, 107, 0.219);
+
 }
 
 .navbar {
@@ -142,6 +143,7 @@ body {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: -2.5rem;
 }
 
 .adwrapper a {
@@ -191,6 +193,7 @@ body {
 	display: flex;
 	justify-content: space-evenly;
 	margin: 1rem 0 1rem 1rem;
+	padding-right: 5rem;
 }
 
 .box {
@@ -217,6 +220,7 @@ body {
 .bookingtab p {
 	color: rgb(201, 201, 201);
 	font-size: 1.25rem;
+	white-space: nowrap;
 }
 
 .bookingtab input,
