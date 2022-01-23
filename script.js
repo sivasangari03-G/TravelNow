@@ -65,7 +65,7 @@ var runCounter = document.querySelector("#CounterButton1");
 				}
 				count++;
 				runCounter.innerHTML = count;
-			}, 7);
+			}, 15);
 		}
 	});
 
@@ -81,7 +81,7 @@ var runCounter = document.querySelector("#CounterButton1");
 				}
 				count2++;
 				runCounter2.innerHTML = count2;
-			}, 1);
+			}, 15);
 		}
 	});
 	var runCounter3 = document.querySelector("#CounterButton3");
@@ -96,7 +96,7 @@ var runCounter = document.querySelector("#CounterButton1");
 				}
 				count3++;
 				runCounter3.innerHTML = count3;
-			}, 9);
+			}, 15);
 		}
 	});
 
