@@ -15,7 +15,7 @@ Just have to clone the repository or download the zip version and then open inde
  
 ## Features
 
-- We have used local storage as a backend.
+- can explore different types of places available with an extensive price comparison.
 - Responsive for all screen sizes.
 
 ## Screenshots
