@@ -1,12 +1,4 @@
 
-
-
-
-
-![Logo](https://media.glassdoor.com/sqll/1623474/onn-bikes-squarelogo-1527244510579.png
-)
-
-    
 # Vacation - Travel Website
 
 Vacation-Travel Website is a web application that allows users to book Travel packages to enjoy sightseeing in a new destination.
@@ -25,11 +17,6 @@ Just have to clone the repository or download the zip version and then open inde
 
 - We have used local storage as a backend.
 - Responsive for all screen sizes.
-- Multiple sorting feature in filter section.
-
-## Support
-
-For support, email bhandarisumit049@gmail.com / soumyaranjanpurohit46@gmail.com / rahulrajput7358@gmail.com
 
 ## Screenshots
 ### 1. Home
