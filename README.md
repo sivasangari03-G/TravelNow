@@ -13,7 +13,9 @@ Just have to clone the repository or download the zip version and then open inde
 - [Vijit Singh](https://github.com/mjsvijit)
 - [Mohammad Shaik](https://github.com/mohammad2407)
  
-## Features
+ Now visit the deployed site : "https://dineout-1.netlify.app/"
+ 
+ ## Features
 
 - Can explore different types of places available with an extensive price comparison.
 - Responsive for all screen sizes.
