@@ -13,7 +13,7 @@ Just have to clone the repository or download the zip version and then open inde
 - [Vijit Singh](https://github.com/mjsvijit)
 - [Mohammad Shaik](https://github.com/mohammad2407)
  
- Now visit the deployed site : "https://dineout-1.netlify.app/"
+ Now visit the deployed site : "https://vacation-travel.herokuapp.com/"
  
  ## Features
 
